@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.travelzilla</groupId>
-	<artifactId>travelzilla</artifactId>
+	<artifactId>travelzilla-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Travelzilla</name>
 	<description>Travelzilla Application</description>

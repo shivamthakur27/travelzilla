@@ -1,10 +1,12 @@
 package com.travelzilla.service;
 
+import com.travelzilla.dto.NewUserDto;
+import com.travelzilla.dto.UserDetailDto;
 import com.travelzilla.model.User;
 
 public interface UserService
 {
-    void save(User user) throws Exception;
+    public NewUserDto createUser(UserDetailDto user) throws Exception;
 
-    User findByEmail(String email);
+
 }
